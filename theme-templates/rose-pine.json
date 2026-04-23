@@ -1,0 +1,304 @@
+{
+  "_comment": "Rose Pine (dark). Iris keywords, foam aqua, gold highlights.",
+  "name": "rose-pine",
+  "dark": true,
+  "parent": "tomorrow_night",
+  "palette": {
+    "foreground": "#E0DEF4",
+    "background": "#191724",
+    "current_line": "#1F1D2E",
+    "selection": "#403D52",
+    "comment": "#6E6A86",
+    "red": "#EB6F92",
+    "orange": "#EBBCBA",
+    "yellow": "#F6C177",
+    "green": "#A9BD7E",
+    "aqua": "#9CCFD8",
+    "blue": "#31748F",
+    "purple": "#C4A7E7",
+    "debug_line": "#F6C177"
+  },
+  "structural": {
+    "foreground": "#E0DEF4",
+    "background": "#191724",
+    "current_line": "#1F1D2E",
+    "selection": "#403D52",
+    "debug_line": "#F6C177"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#6E6A86"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#6E6A86"
+    },
+    "ANNOTATION": {
+      "fg": "#6E6A86"
+    },
+    "ARTIFACT": {
+      "fg": "#31748F"
+    },
+    "BYTECODE": {
+      "fg": "#F6C177"
+    },
+    "CHARACTER": {
+      "fg": "#EBBCBA",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#E0DEF4",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#A9BD7E"
+    },
+    "CODE_ERRORS": {
+      "fg": "#EBBCBA"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#9CCFD8"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#31748F"
+    },
+    "CODE_METADATA": {
+      "fg": "#F6C177"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#EB6F92"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#C4A7E7"
+    },
+    "CODE_SLACK": {
+      "fg": "#6E6A86"
+    },
+    "CODE_STUB": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#E0DEF4"
+    },
+    "CODE_USERLIB": {
+      "fg": "#9CCFD8"
+    },
+    "COMMENT": {
+      "fg": "#6E6A86"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#6E6A86"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "DEFAULT": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "DIRECTIVE": {
+      "fg": "#C4A7E7",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#9CCFD8"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#9CCFD8"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#9CCFD8"
+    },
+    "FIELD_NAME": {
+      "fg": "#C4A7E7",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#C4A7E7",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#E0DEF4"
+    },
+    "IMMEDIATE": {
+      "fg": "#F6C177",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#191724",
+      "bg": "#F6C177"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#191724",
+      "bg": "#EB6F92"
+    },
+    "INFO_DEBUG": {
+      "fg": "#191724",
+      "bg": "#6E6A86"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#191724",
+      "bg": "#6E6A86"
+    },
+    "INFO_ERROR": {
+      "fg": "#191724",
+      "bg": "#EBBCBA"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#191724",
+      "bg": "#F6C177"
+    },
+    "INFO_NORMAL": {
+      "fg": "#191724",
+      "bg": "#E0DEF4"
+    },
+    "INFO_USELESS": {
+      "fg": "#191724",
+      "bg": "#6E6A86"
+    },
+    "INFO_WARNING": {
+      "fg": "#191724",
+      "bg": "#C4A7E7"
+    },
+    "KEYWORD": {
+      "fg": "#31748F",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#A9BD7E",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#6E6A86"
+    },
+    "LABEL_OOR": {
+      "fg": "#6E6A86"
+    },
+    "LAMBDA": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#31748F"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#EB6F92"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#6E6A86"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#F6C177"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#E0DEF4"
+    },
+    "METHOD_NAME": {
+      "fg": "#31748F",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#31748F"
+    },
+    "MNEMONIC": {
+      "fg": "#E0DEF4"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "NUMBER": {
+      "fg": "#F6C177",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#EB6F92",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#E0DEF4"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#E0DEF4"
+    },
+    "PARAMETER": {
+      "fg": "#E0DEF4"
+    },
+    "REGISTER": {
+      "fg": "#6E6A86"
+    },
+    "RESULT_ERROR": {
+      "fg": "#191724",
+      "bg": "#E0DEF4"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#191724",
+      "bg": "#E0DEF4"
+    },
+    "SEPARATOR": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "STRING": {
+      "fg": "#EBBCBA",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#EB6F92",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#6E6A86"
+    },
+    "TYPE_BYTE": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "TYPE_LONG": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    },
+    "TYPE_SHORT": {
+      "fg": "#E0DEF4",
+      "bg": "#191724"
+    }
+  }
+}

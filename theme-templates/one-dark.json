@@ -1,0 +1,304 @@
+{
+  "_comment": "One Dark (Atom/VSCode). Balanced mid-contrast palette, low eye strain.",
+  "name": "one-dark",
+  "dark": true,
+  "parent": "tomorrow_night",
+  "palette": {
+    "foreground": "#ABB2BF",
+    "background": "#282C34",
+    "current_line": "#2C313C",
+    "selection": "#3E4451",
+    "comment": "#5C6370",
+    "red": "#E06C75",
+    "orange": "#D19A66",
+    "yellow": "#E5C07B",
+    "green": "#98C379",
+    "aqua": "#56B6C2",
+    "blue": "#61AFEF",
+    "purple": "#C678DD",
+    "debug_line": "#E5C07B"
+  },
+  "structural": {
+    "foreground": "#ABB2BF",
+    "background": "#282C34",
+    "current_line": "#2C313C",
+    "selection": "#3E4451",
+    "debug_line": "#E5C07B"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#5C6370"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#5C6370"
+    },
+    "ANNOTATION": {
+      "fg": "#5C6370"
+    },
+    "ARTIFACT": {
+      "fg": "#61AFEF"
+    },
+    "BYTECODE": {
+      "fg": "#E5C07B"
+    },
+    "CHARACTER": {
+      "fg": "#D19A66",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#ABB2BF",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#98C379"
+    },
+    "CODE_ERRORS": {
+      "fg": "#D19A66"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#56B6C2"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#61AFEF"
+    },
+    "CODE_METADATA": {
+      "fg": "#E5C07B"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#E06C75"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#C678DD"
+    },
+    "CODE_SLACK": {
+      "fg": "#5C6370"
+    },
+    "CODE_STUB": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#ABB2BF"
+    },
+    "CODE_USERLIB": {
+      "fg": "#56B6C2"
+    },
+    "COMMENT": {
+      "fg": "#5C6370"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#5C6370"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "DEFAULT": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "DIRECTIVE": {
+      "fg": "#C678DD",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#56B6C2"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#56B6C2"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#56B6C2"
+    },
+    "FIELD_NAME": {
+      "fg": "#C678DD",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#C678DD",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#ABB2BF"
+    },
+    "IMMEDIATE": {
+      "fg": "#E5C07B",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#282C34",
+      "bg": "#E5C07B"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#282C34",
+      "bg": "#E06C75"
+    },
+    "INFO_DEBUG": {
+      "fg": "#282C34",
+      "bg": "#5C6370"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#282C34",
+      "bg": "#5C6370"
+    },
+    "INFO_ERROR": {
+      "fg": "#282C34",
+      "bg": "#D19A66"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#282C34",
+      "bg": "#E5C07B"
+    },
+    "INFO_NORMAL": {
+      "fg": "#282C34",
+      "bg": "#ABB2BF"
+    },
+    "INFO_USELESS": {
+      "fg": "#282C34",
+      "bg": "#5C6370"
+    },
+    "INFO_WARNING": {
+      "fg": "#282C34",
+      "bg": "#C678DD"
+    },
+    "KEYWORD": {
+      "fg": "#61AFEF",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#98C379",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#5C6370"
+    },
+    "LABEL_OOR": {
+      "fg": "#5C6370"
+    },
+    "LAMBDA": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#61AFEF"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#E06C75"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#5C6370"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#E5C07B"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#ABB2BF"
+    },
+    "METHOD_NAME": {
+      "fg": "#61AFEF",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#61AFEF"
+    },
+    "MNEMONIC": {
+      "fg": "#ABB2BF"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "NUMBER": {
+      "fg": "#E5C07B",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#E06C75",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#ABB2BF"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#ABB2BF"
+    },
+    "PARAMETER": {
+      "fg": "#ABB2BF"
+    },
+    "REGISTER": {
+      "fg": "#5C6370"
+    },
+    "RESULT_ERROR": {
+      "fg": "#282C34",
+      "bg": "#ABB2BF"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#282C34",
+      "bg": "#ABB2BF"
+    },
+    "SEPARATOR": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "STRING": {
+      "fg": "#D19A66",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#E06C75",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#5C6370"
+    },
+    "TYPE_BYTE": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "TYPE_LONG": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    },
+    "TYPE_SHORT": {
+      "fg": "#ABB2BF",
+      "bg": "#282C34"
+    }
+  }
+}

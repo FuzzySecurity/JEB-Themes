@@ -1,0 +1,304 @@
+{
+  "_comment": "Dracula. High-contrast dark with pink keywords; blue slot maps to Dracula pink.",
+  "name": "dracula",
+  "dark": true,
+  "parent": "tomorrow_night",
+  "palette": {
+    "foreground": "#F8F8F2",
+    "background": "#282A36",
+    "current_line": "#44475A",
+    "selection": "#6272A4",
+    "comment": "#6272A4",
+    "red": "#FF5555",
+    "orange": "#FFB86C",
+    "yellow": "#F1FA8C",
+    "green": "#50FA7B",
+    "aqua": "#8BE9FD",
+    "blue": "#FF79C6",
+    "purple": "#BD93F9",
+    "debug_line": "#F1FA8C"
+  },
+  "structural": {
+    "foreground": "#F8F8F2",
+    "background": "#282A36",
+    "current_line": "#44475A",
+    "selection": "#6272A4",
+    "debug_line": "#F1FA8C"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#6272A4"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#6272A4"
+    },
+    "ANNOTATION": {
+      "fg": "#6272A4"
+    },
+    "ARTIFACT": {
+      "fg": "#FF79C6"
+    },
+    "BYTECODE": {
+      "fg": "#F1FA8C"
+    },
+    "CHARACTER": {
+      "fg": "#FFB86C",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#F8F8F2",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#50FA7B"
+    },
+    "CODE_ERRORS": {
+      "fg": "#FFB86C"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#8BE9FD"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#FF79C6"
+    },
+    "CODE_METADATA": {
+      "fg": "#F1FA8C"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#FF5555"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#BD93F9"
+    },
+    "CODE_SLACK": {
+      "fg": "#6272A4"
+    },
+    "CODE_STUB": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#F8F8F2"
+    },
+    "CODE_USERLIB": {
+      "fg": "#8BE9FD"
+    },
+    "COMMENT": {
+      "fg": "#6272A4"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#6272A4"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "DEFAULT": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "DIRECTIVE": {
+      "fg": "#BD93F9",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#8BE9FD"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#8BE9FD"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#8BE9FD"
+    },
+    "FIELD_NAME": {
+      "fg": "#BD93F9",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#BD93F9",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#F8F8F2"
+    },
+    "IMMEDIATE": {
+      "fg": "#F1FA8C",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#282A36",
+      "bg": "#F1FA8C"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#282A36",
+      "bg": "#FF5555"
+    },
+    "INFO_DEBUG": {
+      "fg": "#282A36",
+      "bg": "#6272A4"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#282A36",
+      "bg": "#6272A4"
+    },
+    "INFO_ERROR": {
+      "fg": "#282A36",
+      "bg": "#FFB86C"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#282A36",
+      "bg": "#F1FA8C"
+    },
+    "INFO_NORMAL": {
+      "fg": "#282A36",
+      "bg": "#F8F8F2"
+    },
+    "INFO_USELESS": {
+      "fg": "#282A36",
+      "bg": "#6272A4"
+    },
+    "INFO_WARNING": {
+      "fg": "#282A36",
+      "bg": "#BD93F9"
+    },
+    "KEYWORD": {
+      "fg": "#FF79C6",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#50FA7B",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#6272A4"
+    },
+    "LABEL_OOR": {
+      "fg": "#6272A4"
+    },
+    "LAMBDA": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#FF79C6"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#FF5555"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#6272A4"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#F1FA8C"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#F8F8F2"
+    },
+    "METHOD_NAME": {
+      "fg": "#FF79C6",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#FF79C6"
+    },
+    "MNEMONIC": {
+      "fg": "#F8F8F2"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "NUMBER": {
+      "fg": "#F1FA8C",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#FF5555",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#F8F8F2"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#F8F8F2"
+    },
+    "PARAMETER": {
+      "fg": "#F8F8F2"
+    },
+    "REGISTER": {
+      "fg": "#6272A4"
+    },
+    "RESULT_ERROR": {
+      "fg": "#282A36",
+      "bg": "#F8F8F2"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#282A36",
+      "bg": "#F8F8F2"
+    },
+    "SEPARATOR": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "STRING": {
+      "fg": "#FFB86C",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#FF5555",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#6272A4"
+    },
+    "TYPE_BYTE": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "TYPE_LONG": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    },
+    "TYPE_SHORT": {
+      "fg": "#F8F8F2",
+      "bg": "#282A36"
+    }
+  }
+}

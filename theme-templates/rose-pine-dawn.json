@@ -1,0 +1,304 @@
+{
+  "_comment": "Rose Pine Dawn. Soft warm-off-white with pink/gold accents.",
+  "name": "rose-pine-dawn",
+  "dark": false,
+  "parent": "tomorrow",
+  "palette": {
+    "foreground": "#575279",
+    "background": "#FAF4ED",
+    "current_line": "#F4EDE8",
+    "selection": "#DFDAD9",
+    "comment": "#9893A5",
+    "red": "#B4637A",
+    "orange": "#EA9D34",
+    "yellow": "#D08A56",
+    "green": "#618774",
+    "aqua": "#56949F",
+    "blue": "#286983",
+    "purple": "#907AA9",
+    "debug_line": "#F2E7C4"
+  },
+  "structural": {
+    "foreground": "#575279",
+    "background": "#FAF4ED",
+    "current_line": "#F4EDE8",
+    "selection": "#DFDAD9",
+    "debug_line": "#F2E7C4"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#9893A5"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#9893A5"
+    },
+    "ANNOTATION": {
+      "fg": "#9893A5"
+    },
+    "ARTIFACT": {
+      "fg": "#286983"
+    },
+    "BYTECODE": {
+      "fg": "#D08A56"
+    },
+    "CHARACTER": {
+      "fg": "#EA9D34",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#575279",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#618774"
+    },
+    "CODE_ERRORS": {
+      "fg": "#EA9D34"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#56949F"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#286983"
+    },
+    "CODE_METADATA": {
+      "fg": "#D08A56"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#B4637A"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#907AA9"
+    },
+    "CODE_SLACK": {
+      "fg": "#9893A5"
+    },
+    "CODE_STUB": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#575279"
+    },
+    "CODE_USERLIB": {
+      "fg": "#56949F"
+    },
+    "COMMENT": {
+      "fg": "#9893A5"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#9893A5"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "DEFAULT": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "DIRECTIVE": {
+      "fg": "#907AA9",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#56949F"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#56949F"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#56949F"
+    },
+    "FIELD_NAME": {
+      "fg": "#907AA9",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#907AA9",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#575279"
+    },
+    "IMMEDIATE": {
+      "fg": "#D08A56",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#FAF4ED",
+      "bg": "#D08A56"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#FAF4ED",
+      "bg": "#B4637A"
+    },
+    "INFO_DEBUG": {
+      "fg": "#FAF4ED",
+      "bg": "#9893A5"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#FAF4ED",
+      "bg": "#9893A5"
+    },
+    "INFO_ERROR": {
+      "fg": "#FAF4ED",
+      "bg": "#EA9D34"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#FAF4ED",
+      "bg": "#D08A56"
+    },
+    "INFO_NORMAL": {
+      "fg": "#FAF4ED",
+      "bg": "#575279"
+    },
+    "INFO_USELESS": {
+      "fg": "#FAF4ED",
+      "bg": "#9893A5"
+    },
+    "INFO_WARNING": {
+      "fg": "#FAF4ED",
+      "bg": "#907AA9"
+    },
+    "KEYWORD": {
+      "fg": "#286983",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#618774",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#9893A5"
+    },
+    "LABEL_OOR": {
+      "fg": "#9893A5"
+    },
+    "LAMBDA": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#286983"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#B4637A"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#9893A5"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#D08A56"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#575279"
+    },
+    "METHOD_NAME": {
+      "fg": "#286983",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#286983"
+    },
+    "MNEMONIC": {
+      "fg": "#575279"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "NUMBER": {
+      "fg": "#D08A56",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#B4637A",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#575279"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#575279"
+    },
+    "PARAMETER": {
+      "fg": "#575279"
+    },
+    "REGISTER": {
+      "fg": "#9893A5"
+    },
+    "RESULT_ERROR": {
+      "fg": "#FAF4ED",
+      "bg": "#575279"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#FAF4ED",
+      "bg": "#575279"
+    },
+    "SEPARATOR": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "STRING": {
+      "fg": "#EA9D34",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#B4637A",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#9893A5"
+    },
+    "TYPE_BYTE": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "TYPE_LONG": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    },
+    "TYPE_SHORT": {
+      "fg": "#575279",
+      "bg": "#FAF4ED"
+    }
+  }
+}

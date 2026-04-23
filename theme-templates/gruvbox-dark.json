@@ -1,0 +1,304 @@
+{
+  "_comment": "Gruvbox Dark (medium). Retro warm dark, saturated syntax.",
+  "name": "gruvbox-dark",
+  "dark": true,
+  "parent": "tomorrow_night",
+  "palette": {
+    "foreground": "#EBDBB2",
+    "background": "#282828",
+    "current_line": "#3C3836",
+    "selection": "#504945",
+    "comment": "#928374",
+    "red": "#FB4934",
+    "orange": "#FE8019",
+    "yellow": "#FABD2F",
+    "green": "#B8BB26",
+    "aqua": "#8EC07C",
+    "blue": "#83A598",
+    "purple": "#D3869B",
+    "debug_line": "#FABD2F"
+  },
+  "structural": {
+    "foreground": "#EBDBB2",
+    "background": "#282828",
+    "current_line": "#3C3836",
+    "selection": "#504945",
+    "debug_line": "#FABD2F"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#928374"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#928374"
+    },
+    "ANNOTATION": {
+      "fg": "#928374"
+    },
+    "ARTIFACT": {
+      "fg": "#83A598"
+    },
+    "BYTECODE": {
+      "fg": "#FABD2F"
+    },
+    "CHARACTER": {
+      "fg": "#FE8019",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#EBDBB2",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#B8BB26"
+    },
+    "CODE_ERRORS": {
+      "fg": "#FE8019"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#8EC07C"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#83A598"
+    },
+    "CODE_METADATA": {
+      "fg": "#FABD2F"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#FB4934"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#D3869B"
+    },
+    "CODE_SLACK": {
+      "fg": "#928374"
+    },
+    "CODE_STUB": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#EBDBB2"
+    },
+    "CODE_USERLIB": {
+      "fg": "#8EC07C"
+    },
+    "COMMENT": {
+      "fg": "#928374"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#928374"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "DEFAULT": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "DIRECTIVE": {
+      "fg": "#D3869B",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#8EC07C"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#8EC07C"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#8EC07C"
+    },
+    "FIELD_NAME": {
+      "fg": "#D3869B",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#D3869B",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#EBDBB2"
+    },
+    "IMMEDIATE": {
+      "fg": "#FABD2F",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#282828",
+      "bg": "#FABD2F"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#282828",
+      "bg": "#FB4934"
+    },
+    "INFO_DEBUG": {
+      "fg": "#282828",
+      "bg": "#928374"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#282828",
+      "bg": "#928374"
+    },
+    "INFO_ERROR": {
+      "fg": "#282828",
+      "bg": "#FE8019"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#282828",
+      "bg": "#FABD2F"
+    },
+    "INFO_NORMAL": {
+      "fg": "#282828",
+      "bg": "#EBDBB2"
+    },
+    "INFO_USELESS": {
+      "fg": "#282828",
+      "bg": "#928374"
+    },
+    "INFO_WARNING": {
+      "fg": "#282828",
+      "bg": "#D3869B"
+    },
+    "KEYWORD": {
+      "fg": "#83A598",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#B8BB26",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#928374"
+    },
+    "LABEL_OOR": {
+      "fg": "#928374"
+    },
+    "LAMBDA": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#83A598"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#FB4934"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#928374"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#FABD2F"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#EBDBB2"
+    },
+    "METHOD_NAME": {
+      "fg": "#83A598",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#83A598"
+    },
+    "MNEMONIC": {
+      "fg": "#EBDBB2"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "NUMBER": {
+      "fg": "#FABD2F",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#FB4934",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#EBDBB2"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#EBDBB2"
+    },
+    "PARAMETER": {
+      "fg": "#EBDBB2"
+    },
+    "REGISTER": {
+      "fg": "#928374"
+    },
+    "RESULT_ERROR": {
+      "fg": "#282828",
+      "bg": "#EBDBB2"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#282828",
+      "bg": "#EBDBB2"
+    },
+    "SEPARATOR": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "STRING": {
+      "fg": "#FE8019",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#FB4934",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#928374"
+    },
+    "TYPE_BYTE": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "TYPE_LONG": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    },
+    "TYPE_SHORT": {
+      "fg": "#EBDBB2",
+      "bg": "#282828"
+    }
+  }
+}

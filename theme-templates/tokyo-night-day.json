@@ -1,0 +1,304 @@
+{
+  "_comment": "Tokyo Night Day. Official light companion to tokyo-night; muted on cool-lavender.",
+  "name": "tokyo-night-day",
+  "dark": false,
+  "parent": "tomorrow",
+  "palette": {
+    "foreground": "#3760BF",
+    "background": "#E1E2E7",
+    "current_line": "#D4D6DC",
+    "selection": "#BEC2D1",
+    "comment": "#848CB5",
+    "red": "#F52A65",
+    "orange": "#B15C00",
+    "yellow": "#8C6C3E",
+    "green": "#587539",
+    "aqua": "#007197",
+    "blue": "#2E7DE9",
+    "purple": "#9854F1",
+    "debug_line": "#DBC48D"
+  },
+  "structural": {
+    "foreground": "#3760BF",
+    "background": "#E1E2E7",
+    "current_line": "#D4D6DC",
+    "selection": "#BEC2D1",
+    "debug_line": "#DBC48D"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#848CB5"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#848CB5"
+    },
+    "ANNOTATION": {
+      "fg": "#848CB5"
+    },
+    "ARTIFACT": {
+      "fg": "#2E7DE9"
+    },
+    "BYTECODE": {
+      "fg": "#8C6C3E"
+    },
+    "CHARACTER": {
+      "fg": "#B15C00",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#3760BF",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#587539"
+    },
+    "CODE_ERRORS": {
+      "fg": "#B15C00"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#007197"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#2E7DE9"
+    },
+    "CODE_METADATA": {
+      "fg": "#8C6C3E"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#F52A65"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#9854F1"
+    },
+    "CODE_SLACK": {
+      "fg": "#848CB5"
+    },
+    "CODE_STUB": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#3760BF"
+    },
+    "CODE_USERLIB": {
+      "fg": "#007197"
+    },
+    "COMMENT": {
+      "fg": "#848CB5"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#848CB5"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "DEFAULT": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "DIRECTIVE": {
+      "fg": "#9854F1",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#007197"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#007197"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#007197"
+    },
+    "FIELD_NAME": {
+      "fg": "#9854F1",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#9854F1",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#3760BF"
+    },
+    "IMMEDIATE": {
+      "fg": "#8C6C3E",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#E1E2E7",
+      "bg": "#8C6C3E"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#E1E2E7",
+      "bg": "#F52A65"
+    },
+    "INFO_DEBUG": {
+      "fg": "#E1E2E7",
+      "bg": "#848CB5"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#E1E2E7",
+      "bg": "#848CB5"
+    },
+    "INFO_ERROR": {
+      "fg": "#E1E2E7",
+      "bg": "#B15C00"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#E1E2E7",
+      "bg": "#8C6C3E"
+    },
+    "INFO_NORMAL": {
+      "fg": "#E1E2E7",
+      "bg": "#3760BF"
+    },
+    "INFO_USELESS": {
+      "fg": "#E1E2E7",
+      "bg": "#848CB5"
+    },
+    "INFO_WARNING": {
+      "fg": "#E1E2E7",
+      "bg": "#9854F1"
+    },
+    "KEYWORD": {
+      "fg": "#2E7DE9",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#587539",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#848CB5"
+    },
+    "LABEL_OOR": {
+      "fg": "#848CB5"
+    },
+    "LAMBDA": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#2E7DE9"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#F52A65"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#848CB5"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#8C6C3E"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#3760BF"
+    },
+    "METHOD_NAME": {
+      "fg": "#2E7DE9",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#2E7DE9"
+    },
+    "MNEMONIC": {
+      "fg": "#3760BF"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "NUMBER": {
+      "fg": "#8C6C3E",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#F52A65",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#3760BF"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#3760BF"
+    },
+    "PARAMETER": {
+      "fg": "#3760BF"
+    },
+    "REGISTER": {
+      "fg": "#848CB5"
+    },
+    "RESULT_ERROR": {
+      "fg": "#E1E2E7",
+      "bg": "#3760BF"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#E1E2E7",
+      "bg": "#3760BF"
+    },
+    "SEPARATOR": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "STRING": {
+      "fg": "#B15C00",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#F52A65",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#848CB5"
+    },
+    "TYPE_BYTE": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "TYPE_LONG": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    },
+    "TYPE_SHORT": {
+      "fg": "#3760BF",
+      "bg": "#E1E2E7"
+    }
+  }
+}

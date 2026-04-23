@@ -1,0 +1,304 @@
+{
+  "_comment": "Monokai (Sublime classic). Punchy dark with pink keywords and lime methods.",
+  "name": "monokai",
+  "dark": true,
+  "parent": "tomorrow_night",
+  "palette": {
+    "foreground": "#F8F8F2",
+    "background": "#272822",
+    "current_line": "#3E3D32",
+    "selection": "#49483E",
+    "comment": "#75715E",
+    "red": "#CC4D4A",
+    "orange": "#FD971F",
+    "yellow": "#E6DB74",
+    "green": "#A6E22E",
+    "aqua": "#66D9EF",
+    "blue": "#F92672",
+    "purple": "#AE81FF",
+    "debug_line": "#E6DB74"
+  },
+  "structural": {
+    "foreground": "#F8F8F2",
+    "background": "#272822",
+    "current_line": "#3E3D32",
+    "selection": "#49483E",
+    "debug_line": "#E6DB74"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#75715E"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#75715E"
+    },
+    "ANNOTATION": {
+      "fg": "#75715E"
+    },
+    "ARTIFACT": {
+      "fg": "#F92672"
+    },
+    "BYTECODE": {
+      "fg": "#E6DB74"
+    },
+    "CHARACTER": {
+      "fg": "#FD971F",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#F8F8F2",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#A6E22E"
+    },
+    "CODE_ERRORS": {
+      "fg": "#FD971F"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#66D9EF"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#F92672"
+    },
+    "CODE_METADATA": {
+      "fg": "#E6DB74"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#CC4D4A"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#AE81FF"
+    },
+    "CODE_SLACK": {
+      "fg": "#75715E"
+    },
+    "CODE_STUB": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#F8F8F2"
+    },
+    "CODE_USERLIB": {
+      "fg": "#66D9EF"
+    },
+    "COMMENT": {
+      "fg": "#75715E"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#75715E"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "DEFAULT": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "DIRECTIVE": {
+      "fg": "#AE81FF",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#66D9EF"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#66D9EF"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#66D9EF"
+    },
+    "FIELD_NAME": {
+      "fg": "#AE81FF",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#AE81FF",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#F8F8F2"
+    },
+    "IMMEDIATE": {
+      "fg": "#E6DB74",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#272822",
+      "bg": "#E6DB74"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#272822",
+      "bg": "#CC4D4A"
+    },
+    "INFO_DEBUG": {
+      "fg": "#272822",
+      "bg": "#75715E"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#272822",
+      "bg": "#75715E"
+    },
+    "INFO_ERROR": {
+      "fg": "#272822",
+      "bg": "#FD971F"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#272822",
+      "bg": "#E6DB74"
+    },
+    "INFO_NORMAL": {
+      "fg": "#272822",
+      "bg": "#F8F8F2"
+    },
+    "INFO_USELESS": {
+      "fg": "#272822",
+      "bg": "#75715E"
+    },
+    "INFO_WARNING": {
+      "fg": "#272822",
+      "bg": "#AE81FF"
+    },
+    "KEYWORD": {
+      "fg": "#F92672",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#A6E22E",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#75715E"
+    },
+    "LABEL_OOR": {
+      "fg": "#75715E"
+    },
+    "LAMBDA": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#F92672"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#CC4D4A"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#75715E"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#E6DB74"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#F8F8F2"
+    },
+    "METHOD_NAME": {
+      "fg": "#F92672",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#F92672"
+    },
+    "MNEMONIC": {
+      "fg": "#F8F8F2"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "NUMBER": {
+      "fg": "#E6DB74",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#CC4D4A",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#F8F8F2"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#F8F8F2"
+    },
+    "PARAMETER": {
+      "fg": "#F8F8F2"
+    },
+    "REGISTER": {
+      "fg": "#75715E"
+    },
+    "RESULT_ERROR": {
+      "fg": "#272822",
+      "bg": "#F8F8F2"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#272822",
+      "bg": "#F8F8F2"
+    },
+    "SEPARATOR": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "STRING": {
+      "fg": "#FD971F",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#CC4D4A",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#75715E"
+    },
+    "TYPE_BYTE": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "TYPE_LONG": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    },
+    "TYPE_SHORT": {
+      "fg": "#F8F8F2",
+      "bg": "#272822"
+    }
+  }
+}

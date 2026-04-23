@@ -1,0 +1,304 @@
+{
+  "_comment": "Tomorrow recalibrated for a warm-gray #DEDDDA background.",
+  "name": "no-tomorrow",
+  "dark": false,
+  "parent": "tomorrow",
+  "palette": {
+    "foreground": "#2E2E2B",
+    "background": "#DEDDDA",
+    "current_line": "#D2D1CD",
+    "selection": "#BEBDBA",
+    "comment": "#7D7B75",
+    "red": "#C02E28",
+    "orange": "#D17B14",
+    "yellow": "#A88500",
+    "green": "#708400",
+    "aqua": "#398C93",
+    "blue": "#4473A0",
+    "purple": "#80589A",
+    "debug_line": "#D9C478"
+  },
+  "structural": {
+    "foreground": "#2E2E2B",
+    "background": "#DEDDDA",
+    "current_line": "#D2D1CD",
+    "selection": "#BEBDBA",
+    "debug_line": "#D9C478"
+  },
+  "styles": {
+    "ADDRESS": {
+      "fg": "#7D7B75"
+    },
+    "ADDRESS_SLACK": {
+      "fg": "#7D7B75"
+    },
+    "ANNOTATION": {
+      "fg": "#7D7B75"
+    },
+    "ARTIFACT": {
+      "fg": "#4473A0"
+    },
+    "BYTECODE": {
+      "fg": "#A88500"
+    },
+    "CHARACTER": {
+      "fg": "#D17B14",
+      "bold": true,
+      "italic": false
+    },
+    "CLASS_NAME": {
+      "fg": "#2E2E2B",
+      "bold": false,
+      "italic": false
+    },
+    "CODE_DATA": {
+      "fg": "#708400"
+    },
+    "CODE_ERRORS": {
+      "fg": "#D17B14"
+    },
+    "CODE_INSTRUCTIONS": {
+      "fg": "#398C93"
+    },
+    "CODE_LIBRARY": {
+      "fg": "#4473A0"
+    },
+    "CODE_METADATA": {
+      "fg": "#A88500"
+    },
+    "CODE_ORPHAN": {
+      "fg": "#C02E28"
+    },
+    "CODE_ROUTINE": {
+      "fg": "#80589A"
+    },
+    "CODE_SLACK": {
+      "fg": "#7D7B75"
+    },
+    "CODE_STUB": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "CODE_UNKNOWN": {
+      "fg": "#2E2E2B"
+    },
+    "CODE_USERLIB": {
+      "fg": "#398C93"
+    },
+    "COMMENT": {
+      "fg": "#7D7B75"
+    },
+    "COMMENT_AUTO": {
+      "fg": "#7D7B75"
+    },
+    "DEBUGGING_PC_LINE": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "DEFAULT": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "DIRECTIVE": {
+      "fg": "#80589A",
+      "bold": true,
+      "italic": false
+    },
+    "EXTERNAL_CLASS_NAME": {
+      "fg": "#398C93"
+    },
+    "EXTERNAL_FIELD_NAME": {
+      "fg": "#398C93"
+    },
+    "EXTERNAL_METHOD_NAME": {
+      "fg": "#398C93"
+    },
+    "FIELD_NAME": {
+      "fg": "#80589A",
+      "bold": false,
+      "italic": false
+    },
+    "FIELD_NAME_GENERATED": {
+      "fg": "#80589A",
+      "bold": false,
+      "italic": true
+    },
+    "IDENTIFIER": {
+      "fg": "#2E2E2B"
+    },
+    "IMMEDIATE": {
+      "fg": "#A88500",
+      "bold": false,
+      "italic": false
+    },
+    "INFO_CORRUPT": {
+      "fg": "#DEDDDA",
+      "bg": "#A88500"
+    },
+    "INFO_DANGEROUS": {
+      "fg": "#DEDDDA",
+      "bg": "#C02E28"
+    },
+    "INFO_DEBUG": {
+      "fg": "#DEDDDA",
+      "bg": "#7D7B75"
+    },
+    "INFO_DEPRECATED": {
+      "fg": "#DEDDDA",
+      "bg": "#7D7B75"
+    },
+    "INFO_ERROR": {
+      "fg": "#DEDDDA",
+      "bg": "#D17B14"
+    },
+    "INFO_MALFORMED": {
+      "fg": "#DEDDDA",
+      "bg": "#A88500"
+    },
+    "INFO_NORMAL": {
+      "fg": "#DEDDDA",
+      "bg": "#2E2E2B"
+    },
+    "INFO_USELESS": {
+      "fg": "#DEDDDA",
+      "bg": "#7D7B75"
+    },
+    "INFO_WARNING": {
+      "fg": "#DEDDDA",
+      "bg": "#80589A"
+    },
+    "KEYWORD": {
+      "fg": "#4473A0",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL": {
+      "fg": "#708400",
+      "bold": false,
+      "italic": true
+    },
+    "LABEL_ALTERNATE": {
+      "fg": "#7D7B75"
+    },
+    "LABEL_OOR": {
+      "fg": "#7D7B75"
+    },
+    "LAMBDA": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "MARKUP_ACTIVE": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "MARKUP_ATTRIBUTE_NAME": {
+      "fg": "#4473A0"
+    },
+    "MARKUP_ATTRIBUTE_VALUE": {
+      "fg": "#C02E28"
+    },
+    "MARKUP_COMMENT": {
+      "fg": "#7D7B75"
+    },
+    "MARKUP_ELEMENT": {
+      "fg": "#A88500"
+    },
+    "MARKUP_OTHER": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "MARKUP_TEXT": {
+      "fg": "#2E2E2B"
+    },
+    "METHOD_NAME": {
+      "fg": "#4473A0",
+      "bold": false,
+      "italic": false
+    },
+    "METHOD_NAME_GENERATED": {
+      "fg": "#4473A0"
+    },
+    "MNEMONIC": {
+      "fg": "#2E2E2B"
+    },
+    "MNEMONIC_PREFIX": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "NUMBER": {
+      "fg": "#A88500",
+      "bold": false,
+      "italic": false
+    },
+    "NUMBER_GENERATED": {
+      "fg": "#C02E28",
+      "bold": true,
+      "italic": false
+    },
+    "OPCODE": {
+      "fg": "#2E2E2B"
+    },
+    "PACKAGE_NAME": {
+      "fg": "#2E2E2B"
+    },
+    "PARAMETER": {
+      "fg": "#2E2E2B"
+    },
+    "REGISTER": {
+      "fg": "#7D7B75"
+    },
+    "RESULT_ERROR": {
+      "fg": "#DEDDDA",
+      "bg": "#2E2E2B"
+    },
+    "RESULT_SUCCESS": {
+      "fg": "#DEDDDA",
+      "bg": "#2E2E2B"
+    },
+    "SEPARATOR": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "STRING": {
+      "fg": "#D17B14",
+      "bold": true,
+      "italic": false
+    },
+    "STRING_GENERATED": {
+      "fg": "#C02E28",
+      "bold": true,
+      "italic": false
+    },
+    "TYPE": {
+      "fg": "#7D7B75"
+    },
+    "TYPE_BYTE": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "TYPE_DOUBLE": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "TYPE_FLOAT": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "TYPE_INTEGER": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "TYPE_LONG": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "TYPE_PROTOTYPE": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    },
+    "TYPE_SHORT": {
+      "fg": "#2E2E2B",
+      "bg": "#DEDDDA"
+    }
+  }
+}
